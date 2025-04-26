@@ -39,8 +39,3 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('volunteer-opportunities').innerHTML = 'Sorry, we are unable to load opportunities at this time.';
     });
 });
-
-  .catch(error => {
-    console.error('Error fetching volunteer opportunities:', error);
-    document.getElementById('volunteer-opportunities').innerHTML = 'Sorry, we are unable to load opportunities at this time.';
-  });
