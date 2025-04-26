@@ -8,7 +8,7 @@ function displayDate() {
   document.getElementById("time").innerHTML = Date();
 }
 
-fetch('https://www.volunteerconnector.org/api/search/')
+fetch('https://jsonplaceholder.typicode.com/posts')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('volunteer-opportunities');
