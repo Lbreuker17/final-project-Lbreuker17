@@ -119,3 +119,41 @@ button:hover {
 .charity-content aside {
   flex: 1;
 }
+
+#volunteer-opportunities {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.opportunity {
+  background-color: var(--alabaster);
+  border: 2px solid var(--delft-blue);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.opportunity:hover {
+  transform: scale(1.02);
+  border-color: var(--rose-red);
+}
+
+.opportunity h3 {
+  color: var(--ultra-violet);
+  margin-bottom: 0.5rem;
+}
+
+.opportunity p {
+  color: var(--delft-blue);
+  margin: 0.3rem 0;
+}
+
+.opportunity a {
+  text-decoration: none;
+  color: var(--rose-red);
+}
+
+.opportunity a:hover {
+  text-decoration: underline;
+}
